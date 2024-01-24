@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Coffee</title>
+    <!-- Link to CSS  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to CSS END -->
+    <!-- Link with BoxIcon  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link with BoxIcon END  -->
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts END -->
+    <!-- CSS Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://seeklogo.com/images/S/Starbucks_Coffee-logo-DECE0A6E4B-seeklogo.com.png"
+      type="image/x-icon"
+    />
+    <!-- CSS Favicon END  -->
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Starbucks Header Section  -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-wrapper">
+          <div class="logo">
+            <a href="#"> 
+            <img src="Images/starbucks-logo-png-1666.png"  alt="Logo" />
+            </a>
+          </div>
+
+          <div class="header_menue">
+            <nav>
+              <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">REWARDS</a></li>
+                <li><a href="#">GIFT CARDS</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header2nd-flex" style="float: right;">
+            <div class="header-icon">
+              <i class="bx bxs-location-plus" style="font-size: 24px;"></i>
+              <div class="find-store">
+                <p>Find a store</p>
+              </div>
+            </div>
+
+            <div class="header-link-button">
+              <div>
+                <a href="login.html" class="btn-one">Sign in</a>
+              </div>
+              <div>
+                <a href="#" class="btn-two">Join now</a>
+              </div>
+            </div>
+
+            <!-- offcanvas body -->
+            <div id="menu-icon">
+                <div class="offcanvas offcanvas-end" id="demo">
+                    <div class="offcanvas-header">
+                      <h1 class="offcanvas-title"></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+            
+                        <nav class="hidden-menu">
+                        <ul>
+                            <li><a href="#">MENU</a></li>
+                            <li><a href="#">REWARDS</a></li>
+                            <li><a href="#">GIFT CARDS</a></li>
+                        </ul>
+                        </nav>
+                        <hr class="hr-in">
+            
+                        <div class="offside-btn">
+                            <div>
+                            <a href="login.html" class="btn-one">Sign in</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn-two">Join now</a>
+                            </div>
+                        </div>
+                       
+
+                        <div class="find-store store-flex" >
+                        <i class="bx bxs-location-plus" style="font-size: 24px;"></i>
+                            <p>Find a store</p>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="container-fluid mt-3">
+                    <button class="bx bx-menu-alt-right togle-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                    </button>
+                  </div>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </header>
+    <!-- Starbucks Header Section End -->
+
+    <!-- Starbucks all Section -->
+    <main>
+      <section>
+        <div class="box-container">
+          <div class="flex-wrapper">
+            <div class="poster-one">
+              <h2>New Year, New Yays</h2>
+              <p>
+                Jump-start your year with a week full of offers in the Starbucks app.*
+              </p>
+              <a href="#">Open the app</a>
+            </div>
+
+            <div class="festive">
+              <img src="Images/festivel-img.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="box-container">
+          <div class="flex-wrapper-two">
+            <div class="coffee-image">
+              <img src="Images/snacks.webp" alt="" />
+            </div>
+
+            <div class="poster-two">
+              <h2>Gift cards keep on giving</h2>
+              <p>
+                Join Starbucks Rewards and start earning free drinks & food when you use gift cards in the app. (Yes, really!)****
+              </p>
+              <a href="#">Join for free</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="box-container">
+          <div class="flex-wrapper-three">
+            <div class="poster-three">
+              <h2>Hey there, hazelnut</h2>
+              <p>
+                Say hello to our Hazelnut Oatmilk Shaken Espresso, a rich and layered pick-me-up.
+              </p>
+              <a href="#">Order now</a>
+            </div>
+
+            <div class="hazelnut">
+              <img src="Images/hazelnut coffee.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="box-container">
+          <div class="flex-wrapper-four">
+            <div class="milk-choclate">
+              <img src="Images/MILK-CHOCLATE.jpg" alt="" />
+            </div>
+
+            <div class="poster-four">
+              <h2>Pass the pistachios</h2>
+              <p>
+                Your favorite winter duo is back: the Pistachio Latte and Pistachio Cream Cold Brew.
+              </p>
+              <a href="#">Order now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="box-container">
+          <div class="flex-wrapper-five">
+            <div class="poster-five">
+              <h2>Daily delicious</h2>
+              <p>
+                The new Potato, Cheddar & Chive Bakes are full of protein-packed goodness.
+              </p>
+              <a href="#">Order now</a>
+            </div>
+
+            <div class="cookie">
+              <img src="Images/cookie.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="box-container">
+          <div class="flex-wrapper-six">
+            <div class="collection">
+              <img src="Images/collection.webp" alt="" />
+            </div>
+
+            <div class="poster-six">
+              <h2>Our inspiring new collection</h2>
+              <p>
+                Alison Bremner pays homage to her Tlingit culture through design elements that merge ancient traditions and contemporary art in this powerful artist series.
+              </p>
+              <a href="#">Meet Alison</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Starbucks all Section END -->
+
+      <!-- Starbucks Customizations Section  -->
+      <section class="paragraph">
+        <div class="box-container">
+          <div class="flex-wrapper-seven">
+            <div class="paragraph-one">
+              <p>
+                *Triple Star Tuesday:​<br><br>
+                Offer valid 1/9/24 at participating stores. Must activate this offer to earn triple Stars on transactions made during the offer window. Stars cannot be earned on purchases of alcohol,
+                <br> Starbucks Cards or Starbucks Card reloads. See <a href="#">starbucks.com/terms</a> for details.​
+                <br><br>
+                $3 Thursday:​<br>
+                <br>
+                Valid 12-6pm only on 1/11/24 at participating stores on a grande or smaller handcrafted drink. Customizations cost extra. Excludes canned, bottled beverages and alcohol. Valid for one time use. Cannot be combined with other offers or discounts. Excludes delivery services.​
+                <br><br>
+                BOGO Weekend:<br>​
+                <br>
+                Valid 12-6p only on 1/13/24-1/14/24 at participating stores. Buy a handcrafted drink, get one of equal or lesser value for free ($10 max value). Product availability varies by store. Limited to stock on hand. Cannot be combined with other offers or promotions. Excludes delivery services.
+              </p>
+            </div>
+
+            <div class="paragraph-two">
+              <p>
+                **At participating stores. Some restrictions apply. Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads. See <a href="#">starbucks.com/rewards</a> for details and earn rates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Starbucks Customizations Section END -->
+
+      <!-- Details  Pages  -->
+      <section class="info-links">
+        <div class="box-container">
+          <div class="link-wrapper">
+            <div class="bold">
+              <p>About Us</p>
+              <a href="#">Our Company</a>
+              <a href="#">Our Coffee</a>
+              <a href="#">Stories & News</a>
+              <a href="#">Starbucks Archive</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Customer Service</a>
+              <a href="#">Contact Us</a>
+            </div>
+
+            <div class="bold">
+              <p>Careers</p>
+              <a href="#">Culture and Values</a>
+              <a href="#">Inclusion, Diversity, and Equity </a>
+              <a href="#">College Achievement Plan</a>
+              <a href="#">Alumni Community</a>
+              <a href="#">US Careers</a>
+              <a href="#">International Careers</a>
+            </div>
+
+            <div class="bold">
+              <p>Social Impact</p>
+              <a href="#">People</a>
+              <a href="#">Planet</a>
+              <a href="#">Environmental and Social Impact Reporting</a>
+            </div>
+
+            <div class="bold">
+              <p>For Business Partners</p>
+              <a href="#">Landlord Support Center</a>
+              <a href="#">Suppliers</a>
+              <a href="#">Corporate Gift Card Sales</a>
+              <a href="#">Office and Foodservice Coffee</a>
+            </div>
+
+            <div class="bold">
+              <p>Order and Pick Up</p>
+              <a href="#">Order on the App</a>
+              <a href="#">Order on the Web</a>
+              <a href="#">Delivery</a>
+              <a href="#">Order and Pick Up Options</a>
+              <a href="#">Explore and Find Coffee for Home</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Essential Pages End-->
+
+    <!-- Footer Section  -->
+    <footer>
+      <section>
+        <div class="box-container">
+          <div class="icon-box">
+            <i class="bx bxl-spotify bx-border-circle bx-tada-hover"></i>
+            <i class="bx bxl-facebook-circle bx-border-circle bx-tada-hover"></i>
+            <i class="bx bxl-pinterest bx-border-circle bx-tada-hover"></i>
+            <i class="bx bxl-instagram-alt bx-border-circle bx-tada-hover"></i>
+            <i class="bx bxl-youtube bx-border-circle bx-tada-hover"></i>
+            <i class="bx bxl-twitter bx-border-circle bx-tada-hover"></i>
+          </div>
+
+          <div class="policy-page">
+            <div class="policy-page-link">
+              <a href="#">Privacy Notice</a>
+              <a href="#">Terms of Use</a>
+              <a href="#">Do Not Share My Personal Information </a>
+              <a href="#">CA Supply Chain Act</a>
+              <a href="#">Accessibility</a>
+            </div>
+
+            <span>
+              <a href="#" class="preferences">Cookie Preferences</a>
+            </span>
+          </div>
+          <div class="footer-p">
+            <p>© 2024 Starbucks Coffee Company. All rights reserved.</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer Section END  -->
+    <marquee>
+    <p style="color: red; font-size: medium;">* This website is made  for Website  cloning Development Practice Purpose*</p>
+    </marquee>
+
+ 
+  </body>
+</html>
